@@ -11,22 +11,22 @@
 }
 
 .navigation {
-    width: 600px;
-    display: flex;
-    padding-right: 30px;
-    justify-content: space-between;
-    align-items: center;
+  width: 600px;
+  display: flex;
+  padding-right: 30px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .advert {
-    color: white;
+  color: white;
 }
 
 .avatar {
-    display: flex;
+  display: flex;
 }
 
 .avatar > p {
-    padding-left: 10px;
-    color: white;
+  padding-left: 10px;
+  color: white;
 }
