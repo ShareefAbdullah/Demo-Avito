@@ -1,0 +1,58 @@
+export const cards = [
+  {
+    title: "ИПОТЕКА",
+    image: "https://s0.rbk.ru/v6_top_pics/media/img/1/42/346929080344421.jpeg",
+    price: "цена договорная",
+    location: "Грозный",
+    date: "3 июля 23:41",
+  },
+  {
+    title: "ИПОТЕКА",
+    image: "https://s0.rbk.ru/v6_top_pics/media/img/1/42/346929080344421.jpeg",
+    price: "цена договорная",
+    location: "Грозный",
+    date: "3 июля 23:41",
+  },
+  {
+    title: "ИПОТЕКА",
+    image: "https://s0.rbk.ru/v6_top_pics/media/img/1/42/346929080344421.jpeg",
+    price: "цена договорная",
+    location: "Грозный",
+    date: "3 июля 23:41",
+  },
+  {
+    title: "ИПОТЕКА",
+    image: "https://s0.rbk.ru/v6_top_pics/media/img/1/42/346929080344421.jpeg",
+    price: "цена договорная",
+    location: "Грозный",
+    date: "3 июля 23:41",
+  },
+  {
+    title: "ИПОТЕКА",
+    image: "https://s0.rbk.ru/v6_top_pics/media/img/1/42/346929080344421.jpeg",
+    price: "цена договорная",
+    location: "Грозный",
+    date: "3 июля 23:41",
+  },
+  {
+    title: "ИПОТЕКА",
+    image: "https://s0.rbk.ru/v6_top_pics/media/img/1/42/346929080344421.jpeg",
+    price: "цена договорная",
+    location: "Грозный",
+    date: "3 июля 23:41",
+  },
+  {
+    title: "ИПОТЕКА",
+    image: "https://s0.rbk.ru/v6_top_pics/media/img/1/42/346929080344421.jpeg",
+    price: "цена договорная",
+    location: "Грозный",
+    date: "3 июля 23:41",
+  },
+  {
+    title: "ИПОТЕКА",
+    image: "https://s0.rbk.ru/v6_top_pics/media/img/1/42/346929080344421.jpeg",
+    price: "цена договорная",
+    location: "Грозный",
+    date: "3 июля 23:41",
+  },
+];

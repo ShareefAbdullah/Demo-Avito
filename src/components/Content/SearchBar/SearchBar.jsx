@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "../../Button";
-import styles from "../contents.module.css";
+import styles from "../content.module.css";
 
 export const SearchBar = () => {
   return (

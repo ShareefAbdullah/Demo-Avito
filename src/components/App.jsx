@@ -1,12 +1,12 @@
 import React from "react";
 import { Header } from "./Header/Header";
-import { Contents } from "./Contents/Contents";
+import { Content } from "./Content/Content";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Contents />
+      <Content />
     </div>
   );
 }

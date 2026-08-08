@@ -59,3 +59,8 @@
 .services > div:hover {
   background-color: #292929;
 }
+
+.recommended_ads {
+  width: 1320px;
+  margin: 50px auto;
+}
