@@ -13,8 +13,8 @@ export const Content = () => {
         <SearchBar />
       </div>
       <div>
-        <Services />
-        <RecommendedAds />
+        {/*<Services />*/}
+        {/*<RecommendedAds />*/}
       </div>
     </div>
   );

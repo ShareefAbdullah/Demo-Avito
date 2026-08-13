@@ -1,7 +1,147 @@
 * {
   box-sizing: border-box;
 }
+
+html,
 body {
   margin: 0;
   padding: 0;
+  position: relative;
+  height: 100%;
+}
+
+.container {
+  width: 1320px;
+  margin: auto;
+}
+
+.breadcrumbs {
+  color: grey;
+  text-decoration: underline;
+}
+
+.price > p {
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 2%;
+  margin-bottom: 0;
+}
+
+.price > p:last-child {
+  font-size: 18px;
+  color: grey;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.button-text {
+  display: block;
+  padding: 0px 8px;
+}
+
+/* ---------- SWIPER LIBRARY STYLES BELOW ---------- */
+.slider_container {
+  width: 100%;
+  max-width: 800px;
+}
+
+.main-slider {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.main-slider .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.thumbnail-slider {
+  width: 100%;
+  height: 80px;
+  box-sizing: border-box;
+}
+
+.thumbnail-slider .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.thumbnail-slider .swiper-slide-thumb-active {
+  opacity: 1;
+  border: 2px solid #007aff;
+  border-radius: 6px;
+}
+
+.thumbnail-slider .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+/* ---------- SWIPER LIBRARY STYLES ABOVE ---------- */
+
+.sliders_and_buttons {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  margin: 30px auto;
+}
+
+.buttons_right > button {
+  margin-bottom: 30px;
+}
+
+.housing_container {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.housing_left > p > span,
+.housing_right > p > span,
+.about_container > p > span {
+  font-weight: 600;
+  color: grey;
+}
+
+.location_container {
+  padding: 30px 0;
+}
+
+.description_container {
+  width: 800px;
+  padding: 30px 0;
+  white-space: pre-line;
+}
+
+.description_container > p {
+  letter-spacing: 1px;
+}
+
+.about_container {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_container {
+  width: 1320px;
+  margin: 40px auto;
+  padding: 70px 0 10px 0;
+  font-size: 14px;
+}
+
+.footer_top > ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.footer_bottom {
+  text-align: center;
 }

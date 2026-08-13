@@ -2,7 +2,7 @@ import React from "react";
 import heart from "../../assets/headerHeart.svg";
 import message from "../../assets/headerMessage.svg";
 import avatar from "../../assets/headerAvatar.svg";
-import { Button } from "../Button";
+import { Button } from "../Button/Button";
 import styles from "./header.module.css";
 
 export const Navigation = () => {

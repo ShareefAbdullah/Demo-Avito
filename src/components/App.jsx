@@ -1,12 +1,16 @@
 import React from "react";
 import { Header } from "./Header/Header";
 import { Content } from "./Content/Content";
+import { OpenAd } from "../pages/OpenAd";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Content />
+      <div className="container">
+        <Content />
+        <OpenAd />
+      </div>
     </div>
   );
 }
