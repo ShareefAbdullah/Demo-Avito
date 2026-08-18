@@ -10,7 +10,7 @@ import { Description } from "../components/Description/Description";
 import { AboutBuilding } from "../components/AboutBuilding/AboutBuilding";
 import { Footer } from "../components/Footer/Footer";
 
-export const OpenAd = () => {
+export const OpenAdPage = () => {
   return (
     <div>
       <Breadcrumbs />

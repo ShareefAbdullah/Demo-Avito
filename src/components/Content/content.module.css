@@ -1,4 +1,4 @@
-.container {
+.hero_container {
   width: 1320px;
   margin: 20px auto;
   display: flex;
@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.container > div > img {
+.hero_container > div > img {
   width: 200px;
   padding-bottom: 10px;
 }
