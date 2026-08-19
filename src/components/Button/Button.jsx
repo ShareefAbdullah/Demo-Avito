@@ -1,5 +1,7 @@
+//library
 import React from "react";
 import PropTypes, { string } from "prop-types";
+//styles
 import styled from "styled-components";
 
 const StyledButton = styled.button`

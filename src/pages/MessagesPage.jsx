@@ -1,9 +1,10 @@
+//library
 import React from "react";
+//components
 import { MessageMenu } from "../components/MessageMenu/MessageMenu";
 import { Messages } from "../components/Messages/Messages";
-
+//styles
 import styles from "./messages.module.css";
-import { Footer } from "../components/Footer/Footer";
 
 export const MessagesPage = () => {
   return (
@@ -12,7 +13,6 @@ export const MessagesPage = () => {
         <MessageMenu />
         <Messages />
       </div>
-      <Footer />
     </div>
   );
 };

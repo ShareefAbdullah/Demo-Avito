@@ -1,6 +1,9 @@
+//library
 import React from "react";
-import styles from "../content.module.css";
+//components
 import { Cards } from "./Cards/Cards";
+//styles
+import styles from "../content.module.css";
 
 export const RecommendedAds = () => {
   return (

@@ -1,4 +1,6 @@
+//library
 import React from "react";
+//styles
 import styles from "../content.module.css";
 
 export const Services = () => {

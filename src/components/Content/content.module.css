@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.hero_container > div > img {
+.hero_container > div > a > img {
   width: 200px;
   padding-bottom: 10px;
 }
@@ -27,6 +27,7 @@
   cursor: pointer;
   color: white;
 }
+
 .search > input::-webkit-input-placeholder,
 .search > input::-moz-placeholder {
   color: white;
@@ -45,7 +46,7 @@
 }
 
 .services > div {
-  width: 180px;
+  width: 185px;
   background-color: #011765;
   color: white;
   font-size: 18px;

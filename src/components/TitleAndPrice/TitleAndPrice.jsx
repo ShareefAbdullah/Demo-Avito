@@ -1,4 +1,6 @@
+//library
 import React from "react";
+//styles
 import styles from "./title-price.module.css";
 
 export const TitleAndPrice = () => {

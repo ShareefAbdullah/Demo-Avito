@@ -1,4 +1,6 @@
+//library
 import React from "react";
+//styles
 import styles from "../../pages/messages.module.css";
 
 export const MessageMenuTitle = () => {

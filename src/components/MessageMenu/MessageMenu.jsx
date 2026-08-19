@@ -1,7 +1,10 @@
+//library
 import React from "react";
+//components
 import { MessageMenuLogo } from "./MessageMenuLogo";
 import { MessageMenuTitle } from "./MessageMenuTitle";
 import { MessageMenuRating } from "./MessageMenuRating";
+//styles
 import styles from "../../pages/messages.module.css";
 
 export const MessageMenu = () => {

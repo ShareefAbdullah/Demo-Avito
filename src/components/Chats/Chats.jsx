@@ -1,6 +1,9 @@
+//library
 import React from "react";
+//components
 import { ChatsArray } from "./Chats-mock";
 import { Chat } from "./Chat";
+//styles
 import styles from "../../pages/messages.module.css";
 
 export const Chats = () => {

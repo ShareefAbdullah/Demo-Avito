@@ -1,6 +1,9 @@
+//library
 import React from "react";
+//components
 import { Menu } from "./Menu";
 import { Navigation } from "./Navigation";
+//styles
 import styled from "styled-components";
 
 const StyledHeader = styled.div`

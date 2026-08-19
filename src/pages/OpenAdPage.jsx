@@ -1,4 +1,6 @@
+//library
 import React from "react";
+//components
 import { Breadcrumbs } from "../components/Breadcrumbs";
 import { TitleAndPrice } from "../components/TitleAndPrice";
 import { OpenAdButtons } from "../components/OpenAdButtons/OpenAdButtons";
@@ -8,7 +10,6 @@ import { HousingInfo } from "../components/HousingInfo/HousingInfo";
 import { Location } from "../components/Location";
 import { Description } from "../components/Description/Description";
 import { AboutBuilding } from "../components/AboutBuilding/AboutBuilding";
-import { Footer } from "../components/Footer/Footer";
 
 export const OpenAdPage = () => {
   return (
@@ -41,7 +42,6 @@ export const OpenAdPage = () => {
       <Location />
       <Description />
       <AboutBuilding />
-      <Footer />
     </div>
   );
 };

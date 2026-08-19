@@ -1,7 +1,10 @@
+//library
 import React from "react";
+//components
 import { Button } from "../Button/Button";
 import heart from "../../assets/open-ad-heart.svg";
 import compare from "../../assets/open-ad-compare.svg";
+//styles
 import styles from "./open-ad-buttons.module.css";
 
 export const OpenAdButtons = () => {

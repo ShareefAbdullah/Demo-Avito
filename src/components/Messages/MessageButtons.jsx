@@ -1,6 +1,9 @@
+//library
 import React from "react";
-import styles from "../../pages/messages.module.css";
+//components
 import { Button } from "../Button/Button";
+//styles
+import styles from "../../pages/messages.module.css";
 
 export const MessagesButtons = () => {
   return (

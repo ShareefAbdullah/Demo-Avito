@@ -1,26 +1,38 @@
+//library
 import React from "react";
-import { Header } from "./Header/Header";
-import { Logo } from "./Content/Logo/Logo";
-import { SearchBar } from "./Content/SearchBar/SearchBar";
+import { Routes, Route } from "react-router-dom";
+//components
 import { Content } from "./Content/Content";
 import { OpenAdPage } from "../pages/OpenAdPage";
-import styles from "./Content/content.module.css";
 import { MessagesPage } from "../pages/MessagesPage";
+import { Layout } from "./Layout/Layout";
+//styles
+import styles from "./Content/content.module.css";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <div className={styles.hero_container}>
-        <Logo />
-        <SearchBar />
-      </div>
-      <div className="container">
-        {/*<Content />*/}
-        {/*<OpenAdPage />*/}
-        <MessagesPage />
-      </div>
-    </div>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Content />} />
+
+        <Route
+          path="open-ad"
+          element={
+            <div className="container">
+              <OpenAdPage />
+            </div>
+          }
+        />
+        <Route
+          path="messages"
+          element={
+            <div className="container">
+              <MessagesPage />
+            </div>
+          }
+        />
+      </Route>
+    </Routes>
   );
 }
 

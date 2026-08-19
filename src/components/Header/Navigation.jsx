@@ -1,8 +1,12 @@
+//library
 import React from "react";
+import { Link } from "react-router-dom";
+//components
 import heart from "../../assets/headerHeart.svg";
 import message from "../../assets/headerMessage.svg";
 import avatar from "../../assets/headerAvatar.svg";
 import { Button } from "../Button/Button";
+//styles
 import styles from "./header.module.css";
 
 export const Navigation = () => {
@@ -12,7 +16,9 @@ export const Navigation = () => {
         <img src={heart} alt="heart" />
       </div>
       <div className={styles.message}>
-        <img src={message} alt="message" />
+        <Link to="/messages">
+          <img src={message} alt="message" />
+        </Link>
       </div>
       <div className={styles.advert}>Мои объявления</div>
       <div className={styles.avatar}>

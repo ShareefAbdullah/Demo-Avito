@@ -1,6 +1,9 @@
+//library
 import React from "react";
+//components
 import { Card } from "./Card";
 import { cards } from "./mock";
+//styles
 import styles from "./cards.module.css";
 
 export const Cards = () => {

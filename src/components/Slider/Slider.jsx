@@ -1,4 +1,7 @@
+//library
 import React, { useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+//components
 import slide1 from "../../assets/slide1.svg";
 import slide2 from "../../assets/slide2.svg";
 import slide3 from "../../assets/slide3.svg";
@@ -7,8 +10,7 @@ import slide5 from "../../assets/slide5.svg";
 import slide6 from "../../assets/slide6.svg";
 import slide7 from "../../assets/slide7.svg";
 import slide8 from "../../assets/slide8.svg";
-import { Swiper, SwiperSlide } from "swiper/react";
-
+//styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";

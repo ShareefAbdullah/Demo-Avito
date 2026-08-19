@@ -1,5 +1,8 @@
+//library
 import React from "react";
+//components
 import { Button } from "../../Button/Button";
+//styles
 import styles from "../content.module.css";
 
 export const SearchBar = () => {

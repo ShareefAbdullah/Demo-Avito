@@ -1,5 +1,8 @@
+//library
 import React from "react";
+//components
 import avatar from "../../assets/userAvatar.svg";
+//styles
 import styles from "../../pages/messages.module.css";
 
 export const Chat = ({ chat }) => {
