@@ -1,0 +1,43 @@
+.new_ad_container {
+  width: 1320px;
+  margin: auto;
+}
+
+.new_ad_container > h1 {
+  margin: 40px 0;
+}
+
+.new_ad_container > div > h4 {
+  margin: 30px 0 10px 5px;
+}
+
+.ad_description > textarea {
+  width: 500px;
+  height: 250px;
+  resize: none;
+  border: none;
+  border-radius: 10px;
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+.ad_description > textarea:focus {
+  outline: none;
+}
+.ad_price > select {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+}
+
+.ad_button {
+  width: 500px;
+  margin: 50px 0;
+  padding-top: 50px;
+}
+
+.ad_button > button {
+  margin: auto;
+}

@@ -25,7 +25,9 @@ export const Navigation = () => {
         <img src={avatar} alt="avatar" />
         <p>Lincode</p>
       </div>
-      <Button text="Разместить объявление" color="white" width="200px" />
+      <Link to="/new-ad">
+        <Button text="Разместить объявление" color="white" width="200px" />
+      </Link>
     </div>
   );
 };

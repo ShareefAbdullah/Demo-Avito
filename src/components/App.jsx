@@ -8,6 +8,7 @@ import { MessagesPage } from "../pages/MessagesPage";
 import { Layout } from "./Layout/Layout";
 //styles
 import styles from "./Content/content.module.css";
+import { NewAd } from "../pages/NewAd";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Route index element={<Content />} />
 
         <Route
-          path="open-ad"
+          path="/open-ad"
           element={
             <div className="container">
               <OpenAdPage />
@@ -24,13 +25,14 @@ function App() {
           }
         />
         <Route
-          path="messages"
+          path="/messages"
           element={
             <div className="container">
               <MessagesPage />
             </div>
           }
         />
+        <Route path="/new-ad" element={<NewAd />} />
       </Route>
     </Routes>
   );

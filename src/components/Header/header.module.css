@@ -18,6 +18,10 @@
   align-items: center;
 }
 
+.navigation > a {
+  text-decoration: none;
+}
+
 .advert {
   color: white;
 }
