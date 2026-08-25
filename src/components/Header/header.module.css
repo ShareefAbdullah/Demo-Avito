@@ -34,3 +34,8 @@
   padding-left: 10px;
   color: white;
 }
+
+.my_ad > a {
+  color: white;
+  text-decoration: none;
+}

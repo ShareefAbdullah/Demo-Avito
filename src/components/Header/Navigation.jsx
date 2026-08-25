@@ -20,7 +20,9 @@ export const Navigation = () => {
           <img src={message} alt="message" />
         </Link>
       </div>
-      <div className={styles.advert}>Мои объявления</div>
+      <div className={styles.my_ad}>
+        <Link to="/my-ads">Мои объявления</Link>
+      </div>
       <div className={styles.avatar}>
         <img src={avatar} alt="avatar" />
         <p>Lincode</p>

@@ -1,0 +1,6 @@
+.my_ads_container {
+  width: 1320px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}

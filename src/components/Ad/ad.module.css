@@ -1,0 +1,50 @@
+.ad_container {
+  width: 70%;
+}
+
+.ad_container > h1 {
+  margin: 27px 0 50px 0;
+}
+
+.border_bottom {
+  border-bottom: 1px solid grey;
+}
+
+.active_archive {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.active {
+  padding-left: 15px;
+  border-bottom: 2px solid black;
+}
+
+.ad_block {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.ad_img {
+  width: 300px;
+}
+
+.ad_img > img {
+  display: block;
+  width: 100%;
+}
+
+.ad_text {
+  width: 300px;
+}
+
+.ad_text > h2 {
+  color: #0382f7;
+}
+
+.ad_text > p {
+  color: grey;
+}

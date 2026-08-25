@@ -15,7 +15,7 @@ export const MessageMenu = () => {
       <MessageMenuRating />
       <hr />
       <ul>
-        <li>Мои объявления</li>
+        <li className={styles.message_menu_active}>Мои объявления</li>
         <li>Заказы</li>
         <li>Мои отзывы</li>
         <li>Избранное</li>

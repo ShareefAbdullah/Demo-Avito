@@ -6,9 +6,10 @@ import { Content } from "./Content/Content";
 import { OpenAdPage } from "../pages/OpenAdPage";
 import { MessagesPage } from "../pages/MessagesPage";
 import { Layout } from "./Layout/Layout";
+import { NewAd } from "../pages/NewAd";
+import { MyAds } from "../pages/MyAds";
 //styles
 import styles from "./Content/content.module.css";
-import { NewAd } from "../pages/NewAd";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           }
         />
         <Route path="/new-ad" element={<NewAd />} />
+        <Route path="/my-ads" element={<MyAds />} />
       </Route>
     </Routes>
   );
