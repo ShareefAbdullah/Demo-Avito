@@ -28,14 +28,26 @@
 
 .avatar {
   display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
 }
 
 .avatar > p {
   padding-left: 10px;
   color: white;
+  margin: 0;
 }
 
-.my_ad > a {
+.my_ads > a {
   color: white;
   text-decoration: none;
+}
+
+.absolute {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding-top: 10px;
+  z-index: 100;
 }

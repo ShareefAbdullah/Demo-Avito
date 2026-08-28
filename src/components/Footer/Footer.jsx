@@ -20,7 +20,7 @@ export const Footer = () => {
       </div>
       <div className="footer_bottom">
         <p>
-          Lincode-Авито — Продукт от Lincode, аналог сайта объявлении (Авито). ©
+          Lincode-Авито — Продукт от Lincode, аналог сайта объявлений (Авито). ©
           ООО «Lincode Corporation» 2022–2023.
         </p>
       </div>
