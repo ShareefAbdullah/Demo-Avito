@@ -1,6 +1,8 @@
 //library
-import React from "react";
+import React, { useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
+//store
+import { useDispatch } from "react-redux";
 //components
 import { Content } from "./Content/Content";
 import { OpenAdPage } from "../pages/OpenAdPage";
@@ -10,8 +12,15 @@ import { NewAd } from "../pages/NewAd";
 import { MyAds } from "../pages/MyAds";
 //styles
 import styles from "./Content/content.module.css";
+import { loadHomeAds } from "../redux/homeAdsReducer/action";
 
 function App() {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(loadHomeAds());
+  }, []);
+
   return (
     <Routes>
       <Route path="/" element={<Layout />}>

@@ -9,8 +9,8 @@ import styles from "./cards.module.css";
 export const Cards = () => {
   return (
     <div className={styles.cards}>
-      {cards.map((card) => (
-        <Card card={card} />
+      {cards.map((card, index) => (
+        <Card card={card} key={card.id || index} />
       ))}
     </div>
   );
