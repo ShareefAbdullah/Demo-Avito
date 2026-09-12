@@ -3,7 +3,7 @@ import { createStore, combineReducers, applyMiddleware } from "redux";
 import { createLogger } from "redux-logger";
 import { thunk } from "redux-thunk";
 //store
-import { homeAdsReducer } from "./homeAdsReducer/homeAdsReducer";
+import { homeAdsReducer } from "./homeAds/homeAdsReducer";
 import { openAdReducer } from "./openAd/openAdReducer";
 
 const logger = createLogger({

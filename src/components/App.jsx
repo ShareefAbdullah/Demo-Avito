@@ -3,6 +3,14 @@ import React, { useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 //store
 import { useDispatch } from "react-redux";
+import { loadHomeAds } from "../redux/homeAds/action";
+import {
+  loadDescription,
+  loadLargeImage,
+  loadAddress,
+  loadPhone,
+  loadTitle,
+} from "../redux/openAd/action";
 //components
 import { Content } from "./Content/Content";
 import { OpenAdPage } from "../pages/OpenAdPage";
@@ -12,13 +20,17 @@ import { NewAd } from "../pages/NewAd";
 import { MyAds } from "../pages/MyAds";
 //styles
 import styles from "./Content/content.module.css";
-import { loadHomeAds } from "../redux/homeAdsReducer/action";
 
 function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(loadHomeAds());
+    dispatch(loadDescription());
+    dispatch(loadLargeImage());
+    dispatch(loadAddress());
+    dispatch(loadPhone());
+    dispatch(loadTitle());
   }, []);
 
   return (
@@ -27,7 +39,7 @@ function App() {
         <Route index element={<Content />} />
 
         <Route
-          path="/open-ad"
+          path="/open-ad/:id"
           element={
             <div className="container">
               <OpenAdPage />

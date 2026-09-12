@@ -18,11 +18,11 @@ import "swiper/css/free-mode";
 
 import { Navigation, Thumbs, FreeMode } from "swiper/modules";
 
-export const Slider = () => {
+export const Slider = ({ item }) => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   const images = [
-    slide1,
+    item?.largeImage || slide1,
     slide2,
     slide3,
     slide4,

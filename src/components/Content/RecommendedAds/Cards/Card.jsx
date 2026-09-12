@@ -7,7 +7,7 @@ import styles from "./cards.module.css";
 export const Card = ({ card }) => {
   return (
     <div className={styles.card_body}>
-      <Link to="/open-ad">
+      <Link to={`/open-ad/${card.id}`}>
         <div className={styles.card_img}>
           <img src={card.image} alt="" />
         </div>
